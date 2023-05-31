@@ -16,6 +16,5 @@ class InstabugTaskApplication : Application() {
         Instabug.Builder(this, "APP_TOKEN")
             .setInvocationEvents(InstabugInvocationEvent.SHAKE, InstabugInvocationEvent.FLOATING_BUTTON) // "This method sets the invocation events that invoke the SDK's UI."
             .build()
-
     }
 }
