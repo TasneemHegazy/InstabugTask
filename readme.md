@@ -178,7 +178,7 @@ Manual crash reporting with Instabug works by allowing developers to manually re
 
 In the Instabug dashboard, developers can view the reported exceptions, investigate their details, and debug the issues within their code. Manual crash reporting helps developers gain insights into specific exceptions, identify and resolve issues promptly, and improve the stability and performance of their apps.
 
-## 5**. Source Code**
+## 5. **Source Code**
 
 The source code for the project integrated with Instabug can be found in the following GitHub repository:
 
