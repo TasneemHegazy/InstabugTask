@@ -173,6 +173,6 @@ In the Instabug dashboard, developers can view the reported exceptions, investig
 
 ## 5. Conclusion <a name="conclusion"></a>
 
-I really enjoyed working on this challenge, and I strongly believe that Instabug plays a vital role in ensuring top companies deliver crash-free applications. I am thrilled to have the opportunity to work with one of the pioneering software companies that prioritize bug reporting, app performance monitoring, and crash reporting for mobile apps.
-
-Tools like Instabug offer developers the ability to access symbolicated logs, which are essential for efficient bug-catching and allow developers to quickly pinpoint the exact location and cause of a bug. This feature significantly speeds up the bug-fixing process, enabling developers to resolve issues more rapidly and deliver a smoother and more reliable app experience to users.
+I really enjoyed working on this challenge, and I strongly believe that Instabug plays a vital role in ensuring top companies deliver crash-free applications.
+Tools like Instabug offer developers the ability to access symbolicated logs, which are essential for efficient bug-catching and allow developers to quickly pinpoint the exact location and cause of a bug.
+I am thrilled to have the opportunity to work with one of the pioneering software companies that prioritize bug reporting, app performance monitoring, and crash reporting for mobile apps. And I am confident that working with you will provide me with further opportunities for growth and learning.
