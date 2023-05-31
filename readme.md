@@ -1,10 +1,3 @@
-# Instabug - Software Technical Support Challenge
-
-Created by: Tasneem Hegazy
-Created time: May 31, 2023 3:21 PM
-Last edited by: Tasneem Hegazy
-Last edited time: May 31, 2023 5:27 PM
-
 # Integrating Instabug and Utilizing some Features
 
 ## **Table of Contents**
