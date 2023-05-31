@@ -2,17 +2,17 @@
 
 ## **Table of Contents**
 
-1. **Introduction**
-2. **Bug Reporting and Feedback**
-2.1 Steps Taken
-2.2 How It Works
-3. **Viewing and Responding to Chats**
-3.1 Steps Taken
-3.2 How It Works
-4. **Crash Reporting**
-4.1 Steps Taken
-4.2 How It Works
-5. **Conclusion**
+1. [Introduction](#introduction)
+2. [Bug Reporting and Feedback](#bug-reporting-and-feedback)
+    - 2.1 [Steps Taken](#steps-taken)
+    - 2.2 [How It Works](#how-it-works)
+3. [Viewing and Responding to Chats](#viewing-and-responding-to-chats)
+    - 3.1 [Steps Taken](#steps-taken)
+    - 3.2 [How It Works](#how-it-works)
+4. [Crash Reporting](#crash-reporting)
+    - 4.1 [Steps Taken](#steps-taken)
+    - 4.2 [How It Works](#how-it-works)
+5. [Conclusion](#conclusion)
 
 ## **1. Introduction**
 
