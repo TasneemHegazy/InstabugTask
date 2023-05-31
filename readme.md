@@ -4,14 +4,14 @@
 
 1. [Introduction](#introduction)
 2. [Bug Reporting and Feedback](#bug-reporting-and-feedback)
-    - 2.1 [Steps Taken](#steps-taken)
-    - 2.2 [How It Works](#how-it-works)
+    - 2.1 [Steps Taken](#steps-taken-1)
+    - 2.2 [How It Works](#how-it-works-1)
 3. [Viewing and Responding to Chats](#viewing-and-responding-to-chats)
-    - 3.1 [Steps Taken](#steps-taken)
-    - 3.2 [How It Works](#how-it-works)
+    - 3.1 [Steps Taken](#steps-taken-2)
+    - 3.2 [How It Works](#how-it-works-2)
 4. [Crash Reporting](#crash-reporting)
-    - 4.1 [Steps Taken](#steps-taken)
-    - 4.2 [How It Works](#how-it-works)
+    - 4.1 [Steps Taken](#steps-taken-3)
+    - 4.2 [How It Works](#how-it-works-3)
 5. [Conclusion](#conclusion)
 
 ## 1. Introduction <a name="introduction"></a>
@@ -22,7 +22,7 @@ This document provides a comprehensive guide on how I integrated Instabug into m
 
 In this section, I will explain how I integrated the bug reporting and feedback feature into the app and how it functions.
 
-### 2.1 Steps Taken <a name="steps-taken"></a>
+### 2.1 Steps Taken <a name="steps-taken-1"></a>
 
 To integrate bug reporting and feedback, follow these steps:
 
@@ -47,7 +47,7 @@ By following these steps, you can customize the invocation events for the Instab
 ![](Screenshots/Screenshot_(8).png)
 ![](Screenshots/Screenshot_(7).png)
 ![](Screenshots/Screenshot_2023-05-31-18-07-18-324_com.example.instabugtask.jpg)
-### 2.2 How It Works <a name="how-it-works"></a>
+### 2.2 How It Works <a name="how-it-works-1"></a>
 
 When a user encounters a bug or wants to provide feedback, they can trigger Instabug by clicking the designated button. This action opens the Instabug bug reporting or feedback screen, depending on the selected mode. The user can then describe the issue, attach screenshots, and provide additional information. Once submitted, the bug report or feedback is sent to the Instabug dashboard for further analysis by the development team. This streamlined process enhances bug tracking and facilitates efficient communication between users and the support team.
 
@@ -80,7 +80,7 @@ You can choose one or multiple invocation events based on your preferences and t
 
 In this section, I will explain how I integrated the chat functionality and enabled users to view and respond to chats within the app.
 
-### 3.1 Steps Taken <a name="steps-taken"></a>
+### 3.1 Steps Taken <a name="steps-taken-2"></a>
 
 To show the replies page, which contains a list of any previous chats opened for a customer, you can follow these steps:
 
@@ -111,7 +111,7 @@ Make sure to import the necessary classes or packages related to Instabug before
 ![](Screenshots/Screenshot_2023-05-31-18-08-28-067_com.example.instabugtask.jpg)
 ![](Screenshots/Screenshot_2023-05-31-18-06-16-002_com.example.instabugtask.jpg)
 ![](Screenshots/Screenshot_2023-05-31-18-04-29-368_com.example.instabugtask.jpg)
-### 3.2 How It Works <a name="how-it-works"></a>
+### 3.2 How It Works <a name="how-it-works-2"></a>
 
 Upon clicking the designated button, the Instabug chat interface is displayed, allowing users to access their chat conversations. Users can view previous messages and send new messages to the support team. The support team can respond to user queries and provide assistance through the Instabug dashboard. This real-time communication channel ensures efficient and effective support for users directly within the app.
 
@@ -119,7 +119,7 @@ Upon clicking the designated button, the Instabug chat interface is displayed, a
 
 In this section, I will cover the integration of the crash reporting feature and how it captures and reports app crashes.
 
-### 4.1 Steps Taken <a name="steps-taken"></a>
+### 4.1 Steps Taken <a name="steps-taken-3"></a>
 
 To integrate manual crash reporting, follow these steps:
 
@@ -164,7 +164,7 @@ Ensure that you import the necessary classes or packages related to Instabug bef
 ![](Screenshots/Screenshot_2023-05-31-18-08-28-067_com.example.instabugtask.jpg)
 ![](Screenshots/Screenshot_(5).png)
 
-### 4.2 How It Works <a name="how-it-works"></a>
+### 4.2 How It Works <a name="how-it-works-3"></a>
 
 Manual crash reporting with Instabug works by allowing developers to manually report and track handled exceptions or errors in their code. When an exception occurs, developers can use it to report the exception along with relevant details. The crash report is then sent to the Instabug backend servers for analysis. 
 
