@@ -53,18 +53,6 @@ When a user encounters a bug or wants to provide feedback, they can trigger Inst
 
 You have the option to set one or multiple invocation events to customize when the Instabug SDK is triggered. To customize the invocation event, you can use the `setInvocationEvents()` method when initializing the Instabug SDK.
 
-Here's an example of how you can set invocation events using the `Instabug.Builder`:
-
-```kotlin
-Instabug.Builder(this, "APP_TOKEN")
-    .setInvocationEvents(
-        InstabugInvocationEvent.SHAKE,
-        InstabugInvocationEvent.FLOATING_BUTTON
-    )
-    .build()
-```
-
-In the above example, the SDK is configured to be triggered either by shaking the device or by tapping on a floating button.
 
 Here are the possible invocation events you can choose from:
 
@@ -128,10 +116,10 @@ To integrate manual crash reporting, follow these steps:
 
 ```kotlin
 val exception = IBGNonFatalException.Builder(NullPointerException("Test Exception"))
-    .setUserAttributes(emptyMap())
-    .setFingerprint("My Custom Fingerprint")
-    .setLevel(IBGNonFatalException.Level.CRITICAL)
-    .build()
+   .setUserAttributes(mapOf("height" to "tall"))
+   .setFingerprint("My Custom Fingerprint")
+   .setLevel(IBGNonFatalException.Level.CRITICAL)
+   .build()
 CrashReporting.report(exception)
 ```
 
@@ -141,8 +129,8 @@ In the example above, a `NullPointerException` is encapsulated within an `IBGNon
 
 ```kotlin
 val exception = IBGNonFatalException.Builder(NullPointerException("Test Exception"))
-    .setLevel(IBGNonFatalException.Level.CRITICAL)
-    .build()
+   .setLevel(IBGNonFatalException.Level.CRITICAL)
+   .build()
 CrashReporting.report(exception)
 ```
 
