@@ -1,21 +1,21 @@
 package com.example.instabugtask
 
 import android.app.Application
-import com.instabug.featuresrequest.FeatureRequests
-import com.instabug.library.Feature
-import com.instabug.library.Instabug
-import com.instabug.library.invocation.InstabugInvocationEvent
+import com.instabug.library.Instabug // "This is the main Instabug SDK class that initializes the SDK and sets up different SDK features."
+import com.instabug.library.invocation.InstabugInvocationEvent // "This is the class that represents the different invocation events that invoke the SDK's UI."
 
+//"This is the application class that is used to initialize the Instabug SDK."
 class InstabugTaskApplication : Application() {
     override fun onCreate() {
         super.onCreate()
+        // "This method initializes the Instabug SDK."
         setupInstabugSDK()
     }
 
     private fun setupInstabugSDK() {
         Instabug.Builder(this, "8f5337843fe8a934aab4788585dcb488")
-            .setInvocationEvents(InstabugInvocationEvent.SHAKE, InstabugInvocationEvent.FLOATING_BUTTON)
+            .setInvocationEvents(InstabugInvocationEvent.SHAKE, InstabugInvocationEvent.FLOATING_BUTTON) // "This method sets the invocation events that invoke the SDK's UI."
             .build()
-        FeatureRequests.setState(Feature.State.ENABLED)
+
     }
 }

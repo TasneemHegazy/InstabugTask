@@ -18,12 +18,11 @@ import com.example.instabugtask.ui.theme.InstabugTaskTheme
 import com.instabug.chat.Replies
 import com.instabug.crash.CrashReporting
 import com.instabug.crash.models.IBGNonFatalException
-import com.instabug.featuresrequest.FeatureRequests
 
 
 class MainActivity : ComponentActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+    override fun onCreate(savedInstanceState: Bundle?) { // "Called when the activity is starting."
+        super.onCreate(savedInstanceState) // "Perform initialization of all fragments and loaders."
         setContent {
             InstabugTaskTheme {
                 // A surface container using the 'background' color from the theme
@@ -47,8 +46,8 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun ViewChatsButton() {
     Button(onClick = {
-        if (Replies.hasChats()) {
-            Replies.show()
+        if (Replies.hasChats()) { // "This method checks if there are any chats to show."
+            Replies.show() // "This method shows the chats list."
         } else {
             println("You have no pre-existing chats.")
         }
@@ -73,7 +72,7 @@ fun ReportCrashButton() {
 
 @Preview(showBackground = true)
 @Composable
-fun GreetingPreview() {
+fun GreetingPreview() { // "This method is used to preview the UI."
     InstabugTaskTheme {
         ViewChatsButton()
         ReportCrashButton()
