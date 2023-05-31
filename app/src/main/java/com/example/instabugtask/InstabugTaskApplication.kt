@@ -1,6 +1,8 @@
 package com.example.instabugtask
 
 import android.app.Application
+import com.instabug.featuresrequest.FeatureRequests
+import com.instabug.library.Feature
 import com.instabug.library.Instabug
 import com.instabug.library.invocation.InstabugInvocationEvent
 
@@ -14,5 +16,6 @@ class InstabugTaskApplication : Application() {
         Instabug.Builder(this, "8f5337843fe8a934aab4788585dcb488")
             .setInvocationEvents(InstabugInvocationEvent.SHAKE, InstabugInvocationEvent.FLOATING_BUTTON)
             .build()
+        FeatureRequests.setState(Feature.State.ENABLED)
     }
 }

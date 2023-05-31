@@ -10,6 +10,10 @@
     <uses-permission android:name='android.permission.MODIFY_AUDIO_SETTINGS' />
     <uses-permission android:name='android.permission.INTERNET' />
     <uses-permission android:name='android.permission.WAKE_LOCK' />
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.REAL.GET_TASKS"/>
+    <uses-permission android:name="android.permission.READ_LOGS"
+        tools:ignore="ProtectedPermissions" />
 
     <application
         android:name=".InstabugTaskApplication"
@@ -29,7 +33,6 @@
             android:theme="@style/Theme.InstabugTask">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
