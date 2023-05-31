@@ -173,10 +173,6 @@ In the Instabug dashboard, developers can view the reported exceptions, investig
 
 ## 5. Conclusion <a name="conclusion"></a>
 
-In conclusion, the integration of Instabug into my Kotlin app as part of the Instabug - Software Technical Support Challenge has successfully implemented bug reporting, feedback gathering, chat functionality, and manual crash reporting.
+I really enjoyed working on this challenge, and I strongly believe that Instabug plays a vital role in ensuring top companies deliver crash-free applications. I am thrilled to have the opportunity to work with one of the pioneering software companies that prioritize bug reporting, app performance monitoring, and crash reporting for mobile apps.
 
-Users can conveniently report bugs, provide feedback, view chat conversations, and have real-time communication with the support team directly within the app.
-
-Manual crash reporting with Instabug allows for the explicit reporting and tracking of handled exceptions or errors, providing developers with granular insights into potential issues within the codebase.
-
-Overall, the integration of Instabug has enhanced the app's bug tracking, feedback gathering, and support processes, leading to improved user experience and app stability. I recommend referring to the Instabug documentation and reaching out to their technical support for further details and advanced features. Instabug provides comprehensive tools and functionality to empower developers in delivering high-quality apps and ensuring customer satisfaction.
+Tools like Instabug offer developers the ability to access symbolicated logs, which are essential for efficient bug-catching and allow developers to quickly pinpoint the exact location and cause of a bug. This feature significantly speeds up the bug-fixing process, enabling developers to resolve issues more rapidly and deliver a smoother and more reliable app experience to users.
