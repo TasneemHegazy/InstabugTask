@@ -52,13 +52,9 @@ Replace `"APP_TOKEN"` with your actual Instabug app token.
 2. Build and run your app: Once you have configured the invocation events, build and run your app to test the integration. Make sure to test the specified invocation events to ensure that the Instabug SDK is triggered correctly.
 
 By following these steps, you can customize the invocation events for the Instabug SDK in your Kotlin app. This allows you to define when and how users can access the bug reporting, feedback, or chat functionalities provided by Instabug.
-
-![Screenshot (8).png](Instabug%20-%20Software%20Technical%20Support%20Challenge%205f189f582c7e47048ea83c30815c4951/Screenshot_(8).png)
-
-![Screenshot (7).png](Instabug%20-%20Software%20Technical%20Support%20Challenge%205f189f582c7e47048ea83c30815c4951/Screenshot_(7).png)
-
-![Screenshot_2023-05-31-18-07-18-324_com.example.instabugtask.jpg](Instabug%20-%20Software%20Technical%20Support%20Challenge%205f189f582c7e47048ea83c30815c4951/Screenshot_2023-05-31-18-07-18-324_com.example.instabugtask.jpg)
-
+![](Screenshots/Screenshot_(8).png)
+![](Screenshots/Screenshot_(7).png)
+![](Screenshots/Screenshot_2023-05-31-18-07-18-324_com.example.instabugtask.jpg)
 ### **2.2 How It Works**
 
 When a user encounters a bug or wants to provide feedback, they can trigger Instabug by clicking the designated button. This action opens the Instabug bug reporting or feedback screen, depending on the selected mode. The user can then describe the issue, attach screenshots, and provide additional information. Once submitted, the bug report or feedback is sent to the Instabug dashboard for further analysis by the development team. This streamlined process enhances bug tracking and facilitates efficient communication between users and the support team.
@@ -119,14 +115,10 @@ By using `Replies.hasChats()`, you can conditionally show the replies page based
 
 Make sure to import the necessary classes or packages related to Instabug before using these APIs.
 
-![Screenshot (9).png](Instabug%20-%20Software%20Technical%20Support%20Challenge%205f189f582c7e47048ea83c30815c4951/Screenshot_(9).png)
-
-![Screenshot_2023-05-31-18-08-28-067_com.example.instabugtask.jpg](Instabug%20-%20Software%20Technical%20Support%20Challenge%205f189f582c7e47048ea83c30815c4951/Screenshot_2023-05-31-18-08-28-067_com.example.instabugtask.jpg)
-
-![Screenshot_2023-05-31-18-06-16-002_com.example.instabugtask.jpg](Instabug%20-%20Software%20Technical%20Support%20Challenge%205f189f582c7e47048ea83c30815c4951/Screenshot_2023-05-31-18-06-16-002_com.example.instabugtask.jpg)
-
-![Screenshot_2023-05-31-18-04-29-368_com.example.instabugtask.jpg](Instabug%20-%20Software%20Technical%20Support%20Challenge%205f189f582c7e47048ea83c30815c4951/Screenshot_2023-05-31-18-04-29-368_com.example.instabugtask.jpg)
-
+![](Screenshots/Screenshot_(9).png)
+![](Screenshots/Screenshot_2023-05-31-18-08-28-067_com.example.instabugtask.jpg)
+![](Screenshots/Screenshot_2023-05-31-18-06-16-002_com.example.instabugtask.jpg)
+![](Screenshots/Screenshot_2023-05-31-18-04-29-368_com.example.instabugtask.jpg)
 ### **3.2 How It Works**
 
 Upon clicking the designated button, the Instabug chat interface is displayed, allowing users to access their chat conversations. Users can view previous messages and send new messages to the support team. The support team can respond to user queries and provide assistance through the Instabug dashboard. This real-time communication channel ensures efficient and effective support for users directly within the app.
@@ -177,9 +169,8 @@ Choose the appropriate level based on the severity of the exception you are repo
 
 Ensure that you import the necessary classes or packages related to Instabug before using these APIs.
 
-![Screenshot_2023-05-31-18-08-28-067_com.example.instabugtask.jpg](Instabug%20-%20Software%20Technical%20Support%20Challenge%205f189f582c7e47048ea83c30815c4951/Screenshot_2023-05-31-18-08-28-067_com.example.instabugtask%201.jpg)
-
-![Screenshot (5).png](Instabug%20-%20Software%20Technical%20Support%20Challenge%205f189f582c7e47048ea83c30815c4951/Screenshot_(5).png)
+![](Screenshots/Screenshot_2023-05-31-18-08-28-067_com.example.instabugtask.jpg)
+![](Screenshots/Screenshot_(5).png)
 
 ### **4.2 How It Works**
 
